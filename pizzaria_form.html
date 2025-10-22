@@ -1,0 +1,167 @@
+<!--Deus, abençoe este código-->
+
+<html>
+    <head>
+        <title>Goodfellas Pizzaria - Pedidos</title>
+        <link rel="icon" type="image/x-icon" href="pizza_icon_125948.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="cabecalho">
+            <img src="goodfellas.png">
+            <br><br>
+            
+            <div class="a">
+                <a href="pizzaria_home.html"><h1>Home</h1></a> <a href="pizzaria_cardapio.html"><h1>Cardápio</h1></a> <a href="pizzaria_form.html"><h1>Pedidos</h1></a>
+            </div>
+        </div>
+        <br><br>
+
+        <div id="corpo">
+
+            <h1>Pedidos: </h1>
+            <p>Faça o seu pedido do conforto da sua casa.</p>
+            <br><br>
+
+            <div class="imagem2">
+                <img src="pizza_formulario.png">
+            </div>
+            <br><br><br>
+
+            <div class="pedido">
+            
+            <form name="formulario" method="post" action="" align="left">
+
+            <p>
+                <h3>Informações do cliente: </h3>
+
+                Nome: <br>
+                <input type="text" name="nome" id="nome" size=50>
+                <br><br>
+
+                Email:  <br>
+                <input type="text" name="email" id="email" size=50 required> 
+                <br><br>
+
+                Endereço: <br>
+                <input type="text" name="endereco" id="endereco" size=50 required>
+                <br><br>
+
+                Bairro: <br>
+                <input type="text" name="bairro" id="bairro" size=50 required>
+                <br><br>
+
+                Cidade: <br>
+                <input type="text" name="cidade" id="cidade" size=50 required>
+                <br><br>
+
+                Estado:  <br>
+                <select name="estado" id="estado" required>
+                    <option value="sc">santa catarina</option>
+                    <option value="pr">paraná</option>
+                    <option value="rs">rio grande do sul</option>
+                    <option value="sp">são paulo</option>
+                    <option value="ac">acre</option>
+                    </select> 
+                <br><br>
+
+                Telefone residencial:  <br>
+                <input type="number" name="telefoneres" id="telefoneres" size=50 required> 
+                <br><br>
+
+                Telefone celular:  <br>
+                <input type="number" name="telefonecel" id="telefonecel" size=50 required>
+                <br><br>
+                
+                CEP:  <br>
+                <input type="number" name="cep" id="cep" size=50 required> 
+                <br><br>
+
+                CPF:  <br>
+                <input type="number" name="cpf" id="cpf" size=50 required> 
+                <br><br>
+
+                RG:  <br>
+                <input type="number" name="rg" id="rg" size=50 required> 
+                <br><br>
+            </p>
+            </form>
+
+            <form name="formulario" method="post" action="" align="left">
+            <p>
+
+                <h3>Informações da encomenda: </h3>
+
+                Data de entrega: <br>
+                <input type="date" name="data" id="data">
+                <br><br>
+
+                Hora de entrega: <br>
+                <input type="time" name="hora" id="hora">
+                <br><br>
+
+                Tipos de pizzas:  <br>
+                    <select name="pizzas" id="pizzas" required>
+                        <option value="dc">Doce</option>
+                        <option value="sl">Salgada</option>
+                    </select> 
+                <br><br>
+
+                Tamanho:  <br>
+                    <select name="quantidade" id="quantidade" required>
+                        <option value="01">Pequena</option>
+                        <option value="02">Média</option>
+                        <option value="03">Grande</option>
+                        <option value="04">Gigante</option>
+                    </select> 
+                <br><br>
+
+                Sabores de pizza: <br> 
+                <input type="checkbox" name="educacao" id="calabresa" value="ef">Calabresa<br>
+                <input type="checkbox" name="educacao" id="portuguesa" value="et">Portuguesa<br>
+                <input type="checkbox" name="educacao" id="margherita" value="fa">Marguerita<br>
+                <input type="checkbox" name="educacao" id="quatroqueijos" value="fa">Quatro Queijos<br>
+                <input type="checkbox" name="educacao" id="chocolate" value="et">Chocolate<br>
+                <input type="checkbox" name="educacao" id="morango" value="et">Morango<br>
+                <input type="checkbox" name="educacao" id="sorvete" value="fa">Sorvete<br>
+                <input type="checkbox" name="educacao" id="m&ms" value="fa">M&Ms<br>
+                <br><br> 
+
+                Sugestões:<br>
+                <textarea name="sugestao" id="sugestao" rows="5" cols="30"></textarea>
+                <br><br>
+        
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR">
+        
+                <input type="reset" name="limpar" id="limpar" value="LIMPAR">
+            </p>
+
+            </div>
+
+        </div>
+        <br><br><br><br>
+
+        <div class="icones">
+            <a href="https://www.instagram.com/bahiapizza_/"><img src="instagram.png"></a>
+            <p>Siga-nos no instagram: </p>
+            <h3>@goodfellas_pizza</h3>
+        </div>
+        <br><br><br><br>
+
+        <div id="rodape">
+            <br>
+            <h3>Contatos: </h3>
+            <p>Telefone: (74) 9969-6969</p>
+
+            <h3>Endereço: </h3>
+            <p>R. das Oliveiras, 51 - Sta Marta, Xique-Xique - BA</p>
+
+            <h3>Copyright © 2024 Goodfellas Pizzaria. Todos os direitos reservados.👍</h3>
+            <br>
+            
+        </div>
+
+    </body>
+
+</html>

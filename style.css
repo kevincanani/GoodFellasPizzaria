@@ -1,0 +1,124 @@
+body{
+    background-image: url(trueback2.jpg);
+    font-family: 'Noto Serif';
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.links{
+    color: aqua;
+}
+
+.imagem1{
+    text-align: center;
+    img{
+        width: 60%;
+        border: 5px solid #861212;
+        border-radius: 10px;
+    }
+}
+
+.imagem2{
+    text-align: center;
+    img{
+        width: 40%;
+        border: 5px solid #861212;
+        border-radius: 10px;
+    }
+}
+
+.a{
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 20%;
+        border: 5px solid #861212;
+        border-radius: 10px;
+    }
+}
+
+.t{
+    text-align: center;
+}
+
+.icones{
+    text-align: center;
+    img{
+        width: 5%;
+    }
+}
+
+table{
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #861212;
+}
+
+.pedido{
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 50%;
+        border: 5px solid #861212;
+        border-radius: 10px;
+    }
+}
+
+#cabecalho{
+    text-align: center;
+    background: #861212;
+    img{
+        width: 10%;
+    }
+}
+
+#rodape{
+    background-color: #861212;
+    color: white;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url(NotoSerif-VariableFont_wdth\,wght.ttf);
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #861212;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
